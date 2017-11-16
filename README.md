@@ -133,11 +133,16 @@ Working fine with nodejs v0.10.25 and npm 1.4.21
 If you want to activate your backlit at the system startup open the rc.local:
 ```sudo nano /etc/rc.local```
 
-Then add your line (let the batch jump to the folder and execute it in the background)
+
+Then add your line (let the batch jump to the folder and execute it in the background):
 ```cd /home/jack/.msi-klm```
+
+
 ```sudo nodejs msi-keyboard-CLI.js left purple high 0 middle purple high 2000 right purple high 600```
+
+
 ```exit 0```
 
-You can add what ever color you like. Safe it with "Ctl + X", press "y" and override the file. Done
+You can add what ever color you like. Safe it with "Ctl" + "x", press "y", "Enter" and override the file with "Enter". Done
 
 
