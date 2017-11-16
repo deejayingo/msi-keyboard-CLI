@@ -131,10 +131,14 @@ Working fine with nodejs v0.10.25 and npm 1.4.21
 <h2>Autostart the backlit</h2>
 
 If you want to activate your backlit at the system startup open the rc.local:
+
+
 ```sudo nano /etc/rc.local```
 
 
-Then add your line (let the batch jump to the folder and execute it in the background):
+Then add your line (let the batch jump to the folder and execute it in the background, your username for "jack"):
+
+
 ```cd /home/jack/.msi-klm```
 
 
